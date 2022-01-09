@@ -1,0 +1,135 @@
+/* Config do body no geral */
+body {
+    width: 100vw;
+    height: 100vh
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Config do cabeçalho */
+header {
+    background-color: rgb(235, 32, 32);
+    width: 100vw;
+    height: 60px;
+    display: flex;
+}
+
+/* Config do box do menu*/
+.menu {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-top: 10px;
+    align-content: center;
+    align-items: baseline;
+}
+
+/* Config do texto do menu */
+.menu1 {
+    color: rgb(102, 201, 168);
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Mudança de cor + tamanho + subinhado no menu */
+.menu1:hover {
+    font-size: 16px;
+    color: black;
+    text-decoration: underline;
+}
+
+/* Config da imagem + espaço da home */
+.home {
+    height: 850px;
+    background-image: url(https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/Red%20Door.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+}
+
+/* Config do texto da home */ 
+.hometext {
+    text-align: center;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin: 500px 676px 253px 676px;
+    padding: 25px;
+}
+
+/* Config do h1 - texto da home + títulos das págs sobre e adote */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: rgb(102, 201, 168);
+    background-color: beige;
+    text-align: right;
+    margin: 120px 150px 0px 0px;
+    padding-right: 20px;
+}
+
+/* Config do botão de enviar */
+.bt {
+    background-color:rgb(235, 32, 32);
+    box-shadow: inset 0px 1px 0px 0px rgb(235, 32, 32);
+    display: inline-block;
+    cursor: pointer;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    padding: 6px 10px;
+    text-decoration: none;
+}
+/* aumento da fonte e mudança de cor do botão */
+.bt:hover {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+/* Config rodapé */
+footer {
+    background-color: rgb(235, 32, 32);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    vertical-align: center;
+}
+
+/* Config informações de copyright */
+.copy {
+    /* font-family: 'Montserrat', sans-serif; */
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 50px 0px 50px;
+}
+
+/* Config ícones redes sociais */
+.icons {
+    margin: 5px 0px 0px 0px;
+    padding: 0% 50px;
+}
+
+/* Config ícone github */
+.github {
+    width: 50px;
+}
+/* Config ícone linkedin*/
+.linkedin {
+    width: 50px;
+}
+
+.github:hover {
+    color: rgb(255, 255, 255);
