@@ -8,19 +8,52 @@
     <link rel="stylesheet" href="css/teladeseleção.css">
 </head>
 <body>
-    <header>
-        <div class="menu"> <!-- Menu -->
+    <!-- <header>
+        <div class="menu">  Menu
             <span class="menu1">Jogar</span>
             <span class="menu1">A Lenda de Matinta Perera</span>
             <span class="menu1">Créditos/Ficha Técnica</span>
             <span class="menu1">Repositório</span>
             <span class="menu1">Contato</span>
         </div>    
-    </header>
+    </header> -->
 
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Ana: a forasteira</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur mattis ligula enim, ac hendrerit ante blandit
+                    id. Praesent ut mauris nulla.</p>
+                    <a href="../Personagens/P1_ANA/anafase1.html">Jogar com a personagem</a>    
+            </div>
+        </div>
 
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Marcos: O anfitrão</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur mattis ligula enim, ac hendrerit ante blandit
+                    id. Praesent ut mauris nulla.</p>
+                    <a href="../Personagens/P2_MARCOS/marcosfase1.html">Jogar com o personagem</a>    
+            </div>
+        </div>
 
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Iracema: a velha</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur mattis ligula enim, ac hendrerit ante blandit
+                    id. Praesent ut mauris nulla.</p>
+                    <a href="../Personagens/P3_IRACEMA/iracemafase1.html">Jogar com a personagem</a>    
+            </div>
+        </div>
+    </div>
 
+    <!-- <section>
     <footer>
         <p class="copy">
             <span"> Feito por Camille Monteiro para fins educacionais - ©2022 Todos os direitos reservados.</span><br>
@@ -33,6 +66,14 @@
             <a href="https://www.linkedin.com/in/camillemonteiro/"><img class="linkedinhover" src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/LinkedInWhite.png"></a></span>
         </p>
     </footer>
-    
+    </section> -->
+    <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
+    <script>VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+    });
+    </script>
 </body>
 </html>
