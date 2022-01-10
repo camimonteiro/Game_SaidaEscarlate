@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <!-- Fontes do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- nome da página -->
     <title>Saída Escarlate - Seleção</title>
+   <!-- arquivo CSS -->
     <link rel="stylesheet" href="css/teladeseleção.css">
 </head>
 <body>
-    <!-- <header>
-        <div class="menu">  Menu
-            <span class="menu1">Jogar</span>
-            <span class="menu1">A Lenda de Matinta Perera</span>
-            <span class="menu1">Créditos/Ficha Técnica</span>
-            <span class="menu1">Repositório</span>
-            <span class="menu1">Contato</span>
+    <header>
+        <div class="nomejogo">
+            <span class="titulo">Saída Escarlate</span>
+        </div>
+        <div class="menu">
+            <a class="menu1" href="index.html">JOGAR</a>
+            <a class="menu1" href="historiamatinta.html">Matinta Perera</a>
+            <a class="menu1" href="fichatécnica.html">Ficha Técnica</a>
+            <a class="menu1" href="https://github.com/camimonteiro/Game_SaidaEscarlate">Repositório</a>
+            <a class="menu1" href="contato.html">Contato</a>
         </div>    
-    </header> -->
-
+    </header>
+  
     <div class="container">
         <div class="card">
             <div class="content">
-                <h2>01</h2>
+                <img class="imagemAna" src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/Ana_fdred.png">
                 <h3>Ana: a forasteira</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Curabitur mattis ligula enim, ac hendrerit ante blandit
@@ -32,7 +42,7 @@
 
         <div class="card">
             <div class="content">
-                <h2>02</h2>
+                <img class="imagemMarcos" src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/Marcosfdred.png">
                 <h3>Marcos: O anfitrão</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Curabitur mattis ligula enim, ac hendrerit ante blandit
@@ -43,7 +53,7 @@
 
         <div class="card">
             <div class="content">
-                <h2>03</h2>
+                <img class="imagemIracema" src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/Iracemafdred.png">
                 <h3>Iracema: a velha</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Curabitur mattis ligula enim, ac hendrerit ante blandit
@@ -53,20 +63,24 @@
         </div>
     </div>
 
-    <!-- <section>
+    <div class="pergunta">
+        <h1>Você está pronto para começar?</h1> 
+        <h2>Escolha o seu personagem ao lado:</h2>
+    </div>
+
     <footer>
-        <p class="copy">
-            <span"> Feito por Camille Monteiro para fins educacionais - ©2022 Todos os direitos reservados.</span><br>
-        <p class="icons">
-            <span class="githubbox">
-                <a href="https://github.com/camimonteiro"><img class="github" src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/GitHub.png"></a>
-            <a href="https://github.com/camimonteiro"><img class="githubhover" src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/GitHubwhite.png"></a></span>
-            <span class="linkedinbox">
-            <a href="https://www.linkedin.com/in/camillemonteiro/"><img class="linkedin" src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/LinkedIn.png"></a>
-            <a href="https://www.linkedin.com/in/camillemonteiro/"><img class="linkedinhover" src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/LinkedInWhite.png"></a></span>
-        </p>
+        <div class="copy">
+            <span>Feito por Camille Monteiro para fins educacionais - ©2022 Todos os direitos reservados.</span>
+        </div>
+        <nav class="icons">
+            <ul> 
+                <li class="githubbox"><a href="https://github.com/camimonteiro"><img class="github" src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/GitHub.png" alt="logotipo github"></a>
+                    <a href="https://github.com/camimonteiro"><img class="githubhover" src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/GitHubwhite.png" alt="logotipo github"></a></li>
+                <li class="linkedinbox"><a href="https://www.linkedin.com/in/camillemonteiro/"><img class="linkedin" src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/LinkedIn.png" alt="logotipo linkedin"></a>
+                    <a href="https://www.linkedin.com/in/camillemonteiro/"><img class="linkedinhover" src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/LinkedInWhite.png" alt="logotipo linkedin"></a></li>
+            </ul>
+        </nav>
     </footer>
-    </section> -->
     <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
     <script>VanillaTilt.init(document.querySelectorAll(".card"), {
         max: 25,
