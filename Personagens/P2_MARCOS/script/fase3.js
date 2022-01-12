@@ -4,7 +4,7 @@ function terceiraFaseMarcos () {
         var opcao = prompt (
             `Escolha uma das opções:\n1. escrever texto. \n2. escrever texto.`);
 
-// Se escolher a opção 1 segue para final
+// Se escolher a opção 1 segue para pág de final do Marcos
         if (opcao == 1) {
             window.location.href = "../P2_MARCOS/marcosfinal.html";
             break;
