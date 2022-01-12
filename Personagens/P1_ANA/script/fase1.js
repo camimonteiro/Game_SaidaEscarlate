@@ -2,7 +2,7 @@
 function primeiraFaseAna () {
     while (opcao != 1 || opcao != 2) {
         var opcao = prompt (
-            `1. escrever texto \n2.`);
+            `Escolha uma das opções:\n1. Ana fica na casa como o combinado.\n2. Ana e sua família ficam assustados e resolvem voltar para São Paulo.`);
 
 // Se escolher a opção 1 segue para fase 2
         if (opcao == 1) {

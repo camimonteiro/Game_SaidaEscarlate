@@ -2,7 +2,7 @@
 function segundaFaseIracema () {
     while (opcao != 1 || opcao != 2) {
         var opcao = prompt (
-            `1. escrever texto \n2.`);
+            `Escolha uma das opções:\n1. escrever texto. \n2. escrever texto.`);
 
 // // Se escolher a opção 1 segue para fase 2
 //         if (opcao == 1) {

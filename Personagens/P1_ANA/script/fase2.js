@@ -1,8 +1,8 @@
 // função para dar as opções da fase 2 da Ana
-function segundaFaseAna () {
+function segundaFaseAna ( ) {
     while (opcao != 1 || opcao != 2) {
         var opcao = prompt (
-            `1. escrever texto \n2.`);
+            `Escolha uma das opções:\n1. Ignora a visita inesperada de Iracema.\n2. Vai até a casa de Marcos, o anfitrião e busca saber mais sobre o ocorrido.`);
 
 // Se escolher a opção 1 segue para pág de game over da fase 2
         if (opcao == 1) {
