@@ -18,7 +18,7 @@ body {
 
 /* Config do h1 */
 h1 {
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Inconsolata', sans-serif;
     font-size: 40px;
     color: rgb(147, 19, 20);
     text-align: center;
@@ -75,7 +75,7 @@ header {
 /* Config da imagem + espaço da home */
 .home {
     height: 100vh;
-    background-image: url(https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/Red%20Door.jpeg);
+    background-image: url(https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/floresta.gif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ header {
 /* Config do texto da home */ 
 .hometext {
     text-align: center;
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Inconsolata', sans-serif;
     font-size: 20px;
     color: black;
 }
@@ -94,7 +94,7 @@ header {
 .bt {
     background-color:rgb(147, 19, 20);
     align-items: center;
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Inconsolata', sans-serif;
     font-weight: bold;
     font-size: 14px;
     color: rgb(0, 0, 0);
@@ -129,12 +129,12 @@ footer {
 
 /* Config informações de copyright */
 .copy {
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Inconsolata', sans-serif;
     color: black;
     font-size: 14px;
     font-weight: 700;
     text-align: center;
-    margin: 10px 50px 0px 50px;
+    margin: 25px 50px 0px 50px;
 }
 
 /* Config ícones redes sociais */
