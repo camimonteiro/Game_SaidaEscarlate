@@ -111,7 +111,7 @@ header {
     opacity: 100;
 }
 
-.container .card .coluna1 a {
+.container .card .content .coluna1 a {
     position: relative;
     display: inline-block;
     padding: 8px 20px;
@@ -124,26 +124,25 @@ header {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.container .card .coluna1 a:hover {
+.container .card .content .coluna1 a:hover {
     background: white;
     color: black;
 }
 
-.container .card .coluna1 .imagemMatinta {
+.container .card .content .coluna1 .imagemMatinta {
     width: 100%;
     height: 70%;
     align-self: center;
 }
 
-.container .card .content .coluna2 {
-    width: 1300px;
-    padding: 10px;
-    margin: 0px 100px 50px 50px;
-    text-align: justify;
-    opacity: 100;
+.container .card .content .coluna1 p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.3;
+    margin-top: 20px;
 }
 
-.container .card .coluna2 h1 {
+.container .card .content .coluna1 h1 {
     font-family: 'Inconsolata', sans-serif; 
     font-size: 50px;
     color: white;
@@ -152,15 +151,89 @@ header {
     margin-top: 100px;
 }
 
-.container .card .coluna2 h2 {
+.container .card .content .content .coluna2 {
+    width: 1300px;
+    padding: 10px;
+    margin: 0px 100px 50px 50px;
+    text-align: justify;
+    opacity: 100;
+}
+
+.container .card .content .coluna2 h1 {
+    font-family: 'Inconsolata', sans-serif; 
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 100px;
+}
+
+.container .card .content .coluna2 h2 {
     font-size: 35px;
     font-weight: 800;
     color: white;
     z-index: 1;
 }
 
-.container .card .coluna2 p {
+.container .card .content .coluna2 p {
     font-size: 20px;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.container .card .content .coluna3 {
+    width: 1200px;
+    padding: 10px;
+    margin: 0px 20px 0px 160px;
+    text-align: justify;
+    opacity: 100;
+}
+
+.container .card .content .coluna3 h1 {
+    font-family: 'Inconsolata', sans-serif; 
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 100px;
+}
+
+.container .card .content .coluna3 h2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+    z-index: 1;
+}
+
+.container .card .content .coluna3 p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.container .card .content .coluna3 ul li {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.container .card .content .coluna4 {
+    width: 600px;
+    padding: 10px;
+    margin: 250px 100px 0px 0px;
+    text-align: center;
+    opacity: 100;
+}
+
+.container .card .content .coluna4 h2 {
+    font-size: 55px;
+    font-weight: 800;
+    color: white;
+    z-index: 1;
+}
+
+.container .card .content .coluna4 ul li {
+    font-size: 28px;
     color: #fff;
 }
 
