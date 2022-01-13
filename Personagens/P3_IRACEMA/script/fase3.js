@@ -10,7 +10,7 @@ function terceiraFaseIracema () {
             break;
 // Se escolher a opção 2 segue para a pág de final da Iracema
         } else if (opcao == 2) {
-            window.location.href = "../P1_IRACEMA/iracemafinal.html";
+            window.location.href = "../P3_IRACEMA/iracemafinal.html";
             break;
 // Se não escolher nenhuma das opções alerta indicando que deve escolher uma das opções
         } else {

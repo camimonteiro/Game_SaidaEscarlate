@@ -12,6 +12,7 @@
     height: auto;
     box-sizing: border-box;
     font-family: 'Inconsolata', sans-serif;
+    color: black;
 }
 /* config do body */
 body {
@@ -30,7 +31,7 @@ header {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: flex;
     
 }
@@ -46,6 +47,105 @@ header {
     font-family: 'Terror';
     font-size: 60px ;
     color: black;
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    max-width: 2000px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.container .card {
+    width: 1300px;
+    height: 620px;
+    margin: 0px 10px 10px 10px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur (15px);
+}
+
+.container .card .content {
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container .card .content .coluna1 {
+    width: 800px;
+    height: 100%;
+    padding: 10px;
+    margin: 10px 20px 0px 50px;
+    text-align: center;
+    opacity: 100;
+}
+
+.container .card .content .coluna1 h1 {
+    font-family: 'Terror'; 
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.container .card .content .coluna1 h2 {
+    font-family: 'Inconsolata', sans-serif; 
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.container .card .content .coluna1 a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: rgb(147, 19, 20);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .content .coluna1 a:hover {
+    background: white;
+    color: black;
+}
+
+.container .card .content .coluna1 p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.container .card .content .coluna2 {
+    width:300px;
+    height: 100%;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    opacity: 100;
+}
+
+.container .card .content .coluna2 .bg {
+    width: 150%;
+    align-self: center;
+    margin-top: 150px;
 }
 
 /* Config rodapé */
@@ -67,7 +167,7 @@ footer {
 .copy {
     font-family: 'Inconsolata', sans-serif;
     color: black;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     text-align: center;
     margin: 25px 50px 0px 50px;

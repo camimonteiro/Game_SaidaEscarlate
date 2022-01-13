@@ -31,7 +31,7 @@ header {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: flex;
 }
 
@@ -76,6 +76,7 @@ header {
 /* config do conteúdo dos cards */
 .container {
     position: relative;
+    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +87,7 @@ header {
 
 .container .card {
     position: relative;
-    width: 250px;
+    width: 200px;
     height: 330px;
     margin: 10px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -157,7 +158,7 @@ header {
 /* config h1 */
 h1{
     font-family: 'Terror';
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(147, 19, 20);
     text-align: center;
     margin-left: 200px;
@@ -167,7 +168,7 @@ h1{
 /* config h2 */
 h2 {
     font-family: 'Terror';
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(147, 19, 20);
     text-align: center;
     margin-left: 200px;
@@ -192,7 +193,7 @@ footer {
 .copy {
     font-family: 'Inconsolata', sans-serif;
     color: black;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     text-align: center;
     margin: 25px 50px 0px 50px;
