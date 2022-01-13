@@ -2,7 +2,7 @@
 function terceiraFaseMarcos () {
     while (opcao != 1 || opcao != 2) {
         var opcao = prompt (
-            `Escolha uma das opções:\n1. escrever texto. \n2. escrever texto.`);
+            `Escolha uma das opções:\n1. Marcos conta brevemente sobre a lenda, não dando todas as informações necessárias. \n2. Marcos tenta enganar Ana e diz que não conhece Iracema.`);
 
 // Se escolher a opção 1 segue para pág de final do Marcos
         if (opcao == 1) {

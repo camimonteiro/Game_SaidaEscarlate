@@ -2,7 +2,7 @@
 function primeiraFaseMarcos () {
     while (opcao != 1 || opcao != 2) {
         var opcao = prompt (
-            `Escolha uma das opções:\n1. escrever texto. \n2. escrever texto.`);
+            `Escolha uma das opções:\n1. Marcos perdeu a hora dormindo e não consegue avisar sobre os cachorros. \n2. Marcos chega a tempo de controlar os animais.`);
 
 // Se escolher a opção 1 segue para game over da fase 1
         if (opcao == 1) {

@@ -2,7 +2,7 @@
 function segundaFaseMarcos () {
     while (opcao != 1 || opcao != 2) {
         var opcao = prompt (
-            `Escolha uma das opções:\n1. escrever texto. \n2. escrever texto.`);
+            `Escolha uma das opções:\n1. Marcos conta para Ana sobre a lenda da Matinta Perera. \n2. Marcos não conta nada para Ana, ninguém precisa saber de nada.`);
 
 // Se escolher a opção 1 segue para game over da fase 2
         if (opcao == 1) {
