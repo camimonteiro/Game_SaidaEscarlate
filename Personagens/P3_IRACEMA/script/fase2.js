@@ -2,7 +2,7 @@
 function segundaFaseIracema () {
     while (opcao != 1 || opcao != 2) {
         var opcao = prompt (
-            `Escolha uma das opções:\n1. escrever texto. \n2. escrever texto.`);
+            `Escolha uma das opções:\n1. Iracema vai na casa de Marcos transformada de Matinta.\n2. Iracema vai na casa de Marcos porém na sua forma humana.`);
 
 // Se escolher a opção 1 segue para fase 3
         if (opcao == 1) {

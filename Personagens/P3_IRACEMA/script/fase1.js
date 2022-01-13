@@ -2,7 +2,7 @@
 function primeiraFaseIracema () {
     while (opcao != 1 || opcao != 2) {
         var opcao = prompt (
-            `Escolha uma das opções:\n1. escrever texto. \n2. escrever texto.`);
+            `Escolha uma das opções:\n1. Iracema vai embora e volta no dia seguinte. \n2. Iracema vai embora, mas fica por perto.`);
 
 // Se escolher a opção 1 segue para game over da fase 1
         if (opcao == 1) {
