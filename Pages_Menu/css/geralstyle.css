@@ -298,45 +298,9 @@ header {
     z-index: 1;
 }
 
-/* Config ícones redes sociais */
-.container .card .contentUnico .unico .icons2 {
-    margin: 5px 0px 0px 0px;
-    padding: 0% 50px;
-}
-
-/* Config ícone github */
-.container .card .contentUnico .unico .icons2 .github2 {
-    width: 50px;
-}
-/* Config ícone linkedin */
-.container .card .contentUnico .unico .icons2 .linkedin2 {
-    width: 50px;
-}
-/* Config do hover dos ícones */
-.container .card .contentUnico .unico .icons2 .githubbox2 img.githubhover2 {
-    display: none;
-}
-
-.container .card .contentUnico .unico .icons2 .githubbox2:hover img.github2 {
-    display: none;
-}
-
-.container .card .contentUnico .unico .icons2 .githubbox2:hover img.githubhover2 {
-    display: inherit;
-    width: 50px;
-}
-
-.container .card .contentUnico .unico .icons2 .linkedinbox2 img.linkedinhover2 {
-    display: none;
-}
-
-.container .card .contentUnico .unico .icons2 .linkedinbox2:hover img.linkedin2 {
-    display: none;
-}
-
-.container .card .contentUnico .unico .icons2 .linkedinbox2:hover img.linkedinhover2 {
-    display: inherit;
-    width: 50px;
+.container .card .contentUnico .unico table {
+    width: 600px;
+    margin: 30px 0px 0px 270px;
 }
 
 /* Config rodapé */

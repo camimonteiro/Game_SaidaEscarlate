@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Terror';
+    src: url('../../../Pages_Menu/Fontes/GRAPHICPSYCHOPATHY.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* config do doc */
+* {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', sans-serif;
+}
+/* config do body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* config do cabeçalho */
+header {
+    background-color: rgb(147, 19, 20);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    
+}
+
+/* config do texto do box da logo */ 
+.nomejogo {
+    width: 100%;
+    line-height: 90px;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Terror';
+    font-size: 60px ;
+    color: black;
+}
+
+/* Config rodapé */
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(147, 19, 20);
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    vertical-align: center;
+}
+
+/* Config informações de copyright */
+.copy {
+    font-family: 'Inconsolata', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 25px 50px 0px 50px;
+}
+
+/* Config ícones redes sociais */
+.icons {
+    margin: 5px 0px 0px 0px;
+    padding: 0% 50px;
+}
+
+/* Config ícone github */
+.github {
+    width: 50px;
+}
+/* Config ícone linkedin */
+.linkedin {
+    width: 50px;
+}
+/* Config do hover dos ícones */
+.githubbox img.githubhover {
+    display: none;
+}
+
+.githubbox:hover img.github {
+    display: none;
+}
+
+.githubbox:hover img.githubhover {
+    display: inherit;
+    width: 50px;
+}
+
+.linkedinbox img.linkedinhover {
+    display: none;
+}
+
+.linkedinbox:hover img.linkedin {
+    display: none;
+}
+
+.linkedinbox:hover img.linkedinhover {
+    display: inherit;
+    width: 50px;
+}
