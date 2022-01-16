@@ -148,6 +148,12 @@ header {
     margin-top: 150px;
 }
 
+.container .card .content .coluna2 .bgEspecial {
+    width: 120%;
+    align-self: center;
+    margin-top: 80px;
+}
+
 /* Config rodapé */
 footer {
     position: absolute;

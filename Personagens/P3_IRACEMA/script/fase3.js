@@ -2,7 +2,7 @@
 function terceiraFaseIracema () {
     while (opcao != 1 || opcao != 2) {
         var opcao = prompt (
-            `Escolha uma das opções:\n1. escrever texto. \n2. escrever texto.`);
+            `Escolha uma das opções:\n1. Volta para casa para morrer e enterrar a maldição junto com ela. \n2. Resolve passar a maldição ao primeiro que aparecer.`);
 
 // Se escolher a opção 1 segue para pág de game over da fase 3
         if (opcao == 1) {
