@@ -41,9 +41,9 @@ Para uma melhor visualização, recomendo <strong>utilizar computador ou noteboo
 - [x] Git
 
 <h2 id="personagens">Personagens 🧙‍♀️</h2>
-<img src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/Personagem1.png" height="550em"> 
-<img src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/Personagem2.png" height="550em">
-<img src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/Personagem3.png" height="550em">
+<img src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/Personagem1.png" height="450em"> 
+<img src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/Personagem2.png" height="450em">
+<img src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/Personagem3.png" height="450em">
 
 <hr>
 
