@@ -10,7 +10,8 @@
 
 <h2>Progresso do Projeto 📈</h2>
 
-<img src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/90%25.png" height="40em">
+<img src="https://img.shields.io/badge/Status-Em%20Andamento-yellow?style=for-the-badge&logo=cachet" height="30em">&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/90%25.png" height="35em">
 
 <h2 id="sobre">Sobre o jogo 🔎</h2>
 <p> Saída Escarlate é uma história de terror original baseada em fatos reais e na lenda amazônica da Matinta Perera. A história foi desenvolvida 
